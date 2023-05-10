@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="CollectionView.EmptyViewBug.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:CollectionView.EmptyViewBug"
+    xmlns:pages="clr-namespace:CollectionView.EmptyViewBug.Pages">
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MainPage}" />
+
+    <ShellContent
+        Title="EmptyView Text"
+        ContentTemplate="{DataTemplate pages:CollectionViewInVerticalStack}"/>
+
+    <ShellContent
+        Title="EmptyView Template"
+        ContentTemplate="{DataTemplate pages:CollectionViewInVerticalStackEmptyViewTemplate}"/>
+</Shell>
