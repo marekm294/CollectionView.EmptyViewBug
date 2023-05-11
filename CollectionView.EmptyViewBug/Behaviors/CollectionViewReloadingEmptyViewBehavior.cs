@@ -23,12 +23,14 @@ internal sealed class CollectionViewReloadingEmptyViewBehavior : Behavior<Collec
 
         if (e.PropertyName == CollectionView.WidthProperty.PropertyName)
         {
-
             if (collectionView.Width > 0 && Helper.IsEnumerableNullOrEmpty(collectionView.ItemsSource))
             {
                 var emptyViewTemplate = collectionView.EmptyViewTemplate;
                 collectionView.EmptyViewTemplate = null;
-                collectionView.EmptyView = emptyViewTemplate.CreateContent();
+                if (emptyViewTemplate is not null)
+                {
+                    collectionView.EmptyView = emptyViewTemplate.CreateContent();
+                }
 
                 //var emptyView = collectionView.EmptyView;
                 //collectionView.EmptyView = null;
