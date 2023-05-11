@@ -37,4 +37,8 @@
     <ShellContent
         Title="EmptyView Template Grid with behavior without height"
         ContentTemplate="{DataTemplate pages:CollectionViewInGridEmptyViewTemplateDummyBehavior}"/>
+
+    <ShellContent
+        Title="EmptyView Template Grid with behavior with height"
+        ContentTemplate="{DataTemplate pages:CollectionViewInGridEmptyViewTemplateDummyBehaviorWithHeight}"/>
 </Shell>

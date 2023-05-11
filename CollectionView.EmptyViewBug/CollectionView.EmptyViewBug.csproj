@@ -68,6 +68,9 @@
 	  <MauiXaml Update="Pages\CollectionViewInGridEmptyViewTemplateDummyBehavior.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Pages\CollectionViewInGridEmptyViewTemplateDummyBehaviorWithHeight.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Pages\CollectionViewInVerticalStack.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
