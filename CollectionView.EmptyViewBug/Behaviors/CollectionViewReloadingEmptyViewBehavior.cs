@@ -29,6 +29,7 @@ internal sealed class CollectionViewReloadingEmptyViewBehavior : Behavior<Collec
                 collectionView.EmptyViewTemplate = null;
                 if (emptyViewTemplate is not null)
                 {
+                    // windows is hit multiple times and epty view is visible even without height
                     collectionView.EmptyView = emptyViewTemplate.CreateContent();
                 }
 
