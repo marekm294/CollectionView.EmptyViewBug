@@ -41,4 +41,21 @@
     <ShellContent
         Title="EmptyView Template Grid with behavior with height"
         ContentTemplate="{DataTemplate pages:CollectionViewInGridEmptyViewTemplateDummyBehaviorWithHeight}"/>
+
+    <ShellContent
+        Title="EmptyView Text ScrollView"
+        ContentTemplate="{DataTemplate pages:CollectionViewScrollView}"/>
+
+    <ShellContent
+        Title="EmptyView Template ScrollView"
+        ContentTemplate="{DataTemplate pages:CollectionViewScrollViewEmptyViewTemplate}"/>
+
+    <ShellContent
+        Title="EmptyView Text ScrollView With behavior"
+        ContentTemplate="{DataTemplate pages:CollectionViewScrollViewEmptyViewTemplateDummyBehavior}"/>
+
+    <ShellContent
+        Title="EmptyView Text ScrollView with behavior with heigh"
+        ContentTemplate="{DataTemplate pages:CollectionViewScrollViewEmptyViewTemplateDummyBehaviorWithHeight}"/>
+
 </Shell>

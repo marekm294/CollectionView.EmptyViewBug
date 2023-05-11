@@ -83,6 +83,18 @@
 	  <MauiXaml Update="Pages\CollectionViewInVerticalStackEmptyViewTemplateDummyBehaviorWithHeight.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Pages\CollectionViewScrollView.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\CollectionViewScrollViewEmptyViewTemplate.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\CollectionViewScrollViewEmptyViewTemplateDummyBehavior.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\CollectionViewScrollViewEmptyViewTemplateDummyBehaviorWithHeight.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	</ItemGroup>
 
 </Project>
