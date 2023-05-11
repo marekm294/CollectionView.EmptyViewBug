@@ -7,14 +7,14 @@
         <CollectionView BackgroundColor="Beige">
             <CollectionView.EmptyViewTemplate>
                 <DataTemplate>
-                    <HorizontalStackLayout>
+                    <HorizontalStackLayout BackgroundColor="#80000000">
                         <Label Text="No record here"
                            Margin="10,25,10,10"
                            FontAttributes="Bold"
                            FontSize="18"
                            HorizontalOptions="Fill"
                            HorizontalTextAlignment="Center" />
-                        <Button Text="AddItem" />
+                        <Button Text="AddItem" Clicked="Button_Clicked"/>
                     </HorizontalStackLayout>
                 </DataTemplate>
             </CollectionView.EmptyViewTemplate>
