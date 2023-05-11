@@ -17,4 +17,24 @@
     <ShellContent
         Title="EmptyView Template"
         ContentTemplate="{DataTemplate pages:CollectionViewInVerticalStackEmptyViewTemplate}"/>
+
+    <ShellContent
+        Title="EmptyView Template with behavior without height"
+        ContentTemplate="{DataTemplate pages:CollectionViewInVerticalStackEmptyViewTemplateDummyBehavior}"/>
+
+    <ShellContent
+        Title="EmptyView Template with behavior with height"
+        ContentTemplate="{DataTemplate pages:CollectionViewInVerticalStackEmptyViewTemplateDummyBehaviorWithHeight}"/>
+
+    <ShellContent
+        Title="EmptyView Text Grid"
+        ContentTemplate="{DataTemplate pages:CollectionViewInGrid}"/>
+
+    <ShellContent
+        Title="EmptyView Template Grid"
+        ContentTemplate="{DataTemplate pages:CollectionViewInGridEmptyViewTemplate}"/>
+
+    <ShellContent
+        Title="EmptyView Template Grid with behavior without height"
+        ContentTemplate="{DataTemplate pages:CollectionViewInGridEmptyViewTemplateDummyBehavior}"/>
 </Shell>

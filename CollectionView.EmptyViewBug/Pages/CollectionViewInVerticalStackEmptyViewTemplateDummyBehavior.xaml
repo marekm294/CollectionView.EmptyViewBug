@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CollectionView.EmptyViewBug.Pages.CollectionViewInVerticalStackEmptyViewTemplateDummyBehavior"
+             xmlns:behaviors="clr-namespace:CollectionView.EmptyViewBug.Behaviors"
+             Title="CollectionViewInVerticalStackEmptyViewTemplateDummyBehavior">
+    <VerticalStackLayout>
+        <CollectionView BackgroundColor="Beige">
+            <CollectionView.Behaviors>
+                <behaviors:CollectionViewReloadingEmptyViewBehavior />
+            </CollectionView.Behaviors>
+            <CollectionView.EmptyViewTemplate>
+                <DataTemplate>
+                    <HorizontalStackLayout>
+                        <Label Text="No record here"
+                           Margin="10,25,10,10"
+                           FontAttributes="Bold"
+                           FontSize="18"
+                           HorizontalOptions="Fill"
+                           HorizontalTextAlignment="Center" />
+                        <Button Text="AddItem" />
+                    </HorizontalStackLayout>
+                </DataTemplate>
+            </CollectionView.EmptyViewTemplate>
+        </CollectionView>
+    </VerticalStackLayout>
+</ContentPage>
