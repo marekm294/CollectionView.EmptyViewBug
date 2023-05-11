@@ -28,7 +28,7 @@ internal sealed class CollectionViewReloadingEmptyViewBehavior : Behavior<Collec
             {
                 var emptyViewTemplate = collectionView.EmptyViewTemplate;
                 collectionView.EmptyViewTemplate = null;
-                collectionView.EmptyView = emptyViewTemplate;
+                collectionView.EmptyView = emptyViewTemplate.CreateContent();
 
                 //var emptyView = collectionView.EmptyView;
                 //collectionView.EmptyView = null;
